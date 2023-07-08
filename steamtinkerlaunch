@@ -19679,6 +19679,11 @@ function setSLRReap {
 	fi
 }
 
+# Install SLR by AppID or for a given game's Proton version?
+function installSLR {
+	writelog "INFO" "${FUNCNAME[0]} - STUB"
+}
+
 function setBoxtronCmd {
 	DOSEXE="$GP"
 	if [ -x "$(command -v "$BOXTRONCMD" 2>/dev/null)" ]; then
